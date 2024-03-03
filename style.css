@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+
+#container{
+    text-align: center;
+}
+
+input{
+    width:300px;
+    font-size: 16px;
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 16px;
+}
