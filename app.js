@@ -8,11 +8,17 @@ btn.addEventListener("click",function(){
 
     let inpText = inp.value;
 
-    movies.innerHTML = "";
+    if(inpText == ""){
+        alert("Please enter movie name!");
+    }
+    else{
+        movies.innerHTML = "";
 
-    callApi(inpText);
+        callApi(inpText);
 
-    inp.value = "";
+        inp.value = "";
+    }
+
 
 });
 
